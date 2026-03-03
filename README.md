@@ -112,12 +112,6 @@ class ZainulWahaj:
 
 </div>
 
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zainulwahaj&theme=radical&hide_border=true" alt="GitHub streak" />
-
-</div>
-
 ---
 
 ## 🐍 Contribution Activity
