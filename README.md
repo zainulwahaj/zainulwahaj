@@ -42,9 +42,9 @@ class ZainulWahaj:
 
 | Project | What it does | Stack |
 |--------|--------------|-------|
-| 🔐 **[SecureVault](https://github.com/zainulwahaj/vault)** | Zero-knowledge encrypted file vault. Client-side XChaCha20-Poly1305, X25519 key exchange, TOTP MFA. Server is cryptographically blind. | FastAPI · Next.js · libsodium · AWS CDK · PostgreSQL |
-| 🍳 **[RecipeHub](https://github.com/zainulwahaj/recipehub-be)** | AI recipe platform powered by GPT-4o-mini. Role-based access, ratings, favorites. FastAPI on Lambda via Docker. | FastAPI · React 19 · OpenAI · AWS Lambda · Docker |
-| 🕷️ **[Crawl.ai](https://github.com/zainulwahaj/crawlai)** | Web scraper with TextRank summarization + VADER sentiment. Asyncio-driven, real-time React dashboard. | Next.js · Flask · NLP · Tailwind · shadcn/ui |
+| 🔐 **[SecureVault](https://github.com/zainulwahaj/SecureVault)** | Zero-knowledge encrypted file vault. Client-side XChaCha20-Poly1305, X25519 key exchange, TOTP MFA. Server is cryptographically blind. | FastAPI · Next.js · libsodium · AWS CDK · PostgreSQL |
+| 🍳 **[RecipeHub](https://github.com/zainulwahaj/recipehub-be)** · [recipehub-fe](https://github.com/zainulwahaj/recipehub-fe) | AI recipe platform powered by GPT-4o-mini. Role-based access, ratings, favorites. FastAPI on Lambda via Docker. | FastAPI · React 19 · OpenAI · AWS Lambda · Docker |
+| 🕷️ **[Crawl.ai](https://github.com/zainulwahaj/aifrontend)** · [scrapvision](https://github.com/zainulwahaj/scrapvision) (backend) | Web scraper with TextRank summarization + VADER sentiment. Asyncio-driven, real-time React dashboard. | Next.js · Flask · NLP · Tailwind · shadcn/ui |
 | 🖥️ **[TaskMGR](https://github.com/zainulwahaj/taskMGR-clone)** | Cross-platform Task Manager clone (Windows · macOS · Linux). Single C# codebase, real-time CPU/memory monitoring. | .NET 8 · Avalonia UI · C# · MVVM |
 | 🧠 **Suicide Ideation Detection** | DistilBERT on 232K Reddit posts. 96.9% accuracy, 99.5% ROC-AUC. Next.js + Windows XP.css frontend. | DistilBERT · PyTorch · Scikit-Learn · Next.js |
 
