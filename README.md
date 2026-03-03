@@ -120,16 +120,6 @@ class ZainulWahaj:
 
 ---
 
-## 🏆 Trophies
-
-<div align="center">
-
-<img src="https://github-profile-trophy.vercel.app/?username=zainulwahaj&theme=onedark&no-frame=true&no-bg=true&column=6" alt="GitHub trophies" width="100%" />
-
-</div>
-
----
-
 ## 🐍 Contribution Activity
 
 <div align="center">
