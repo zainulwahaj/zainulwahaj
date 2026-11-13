@@ -1,137 +1,37 @@
-<div align="center">
+# Syed Zain-ul-Wahaj
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=200&section=header&text=Syed%20Zain-ul-Wahaj&fontSize=48&fontColor=ffffff&fontAlignY=38&desc=Jr%20AI%20Engineer%20%7C%20Cloud%20Architect%20%7C%20Full-Stack%20Dev&descAlignY=58&descSize=18&descColor=a78bfa" />
+AI engineer in Islamabad. At GenMediTech, a healthcare SaaS company, I build LLM agents and the
+web apps and AWS infrastructure around them. I'm also in the final year of a BS in Artificial
+Intelligence at COMSATS University Islamabad.
 
-<br/>
+## Work
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=A78BFA&center=true&vCenter=true&width=600&lines=Building+Agentic+AI+Systems;LangChain+%7C+LangGraph+%7C+OpenAI;AWS+CDK+%7C+Docker+%7C+Serverless;DistilBERT+%7C+PyTorch+%7C+NLP;Zero-Knowledge+Cryptography)](https://git.io/typing-svg)
+The code for these is private; the products are live.
 
-<br/>
+- **Reseptive**: an AI receptionist that answers a multi-provider clinic's phone line. It books
+  appointments through the clinic's EMR, takes messages and consult requests, and routes each one
+  to the on-call provider. I built the voice agent and the console the office works from.
+  ElevenLabs, Twilio, Next.js, Prisma, PostgreSQL.
+- **[SmartNotes AI](https://smartnotesai.com)**: medical scribing with real-time transcription and
+  SOAP notes that a physician signs off before they reach the record. LangGraph, OpenAI Agents SDK.
+- **[MedCodifier](https://medcodifier.com)**: ICD and CPT code extraction with conflict checks and
+  reimbursement estimates. LangChain, LangGraph, Pinecone.
+- EHR integrations with eClinicalWorks, CareCloud and Cerner, and the AWS infrastructure for all
+  of it in CDK.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zain-ul-whaj-a6678719a)
-[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:zainulwhaj4@gmail.com)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zainulwahaj)
-![Profile Views](https://komarev.com/ghpvc/?username=zainulwahaj&style=for-the-badge&color=7c3aed)
+## Projects
 
-</div>
+| Project | What it is | Stack |
+| --- | --- | --- |
+| [tokforge](https://github.com/zainulwahaj/tokforge) | BPE tokenizer written from scratch in Rust, with a Python package on PyPI. Token ids identical to tiktoken for GPT-2, GPT-4 and GPT-4o, checked on 110M differential inputs. [Live demo](https://tokforge.clairoai.tech). | Rust, PyO3, GitHub Actions |
+| [SecureVault](https://github.com/zainulwahaj/SecureVault) | File vault where all encryption happens in the browser, so the server cannot read what it stores. | Next.js, FastAPI, libsodium, PostgreSQL |
+| [RecipeHub](https://github.com/zainulwahaj/recipehub-be) | Recipe platform with AI generation from ingredients, JWT auth and role-based access. [Frontend](https://github.com/zainulwahaj/recipehub-fe). | FastAPI on AWS Lambda, React 19 |
+| [termview](https://github.com/zainulwahaj/termview) | Images, GIFs and video in the terminal, with audio. [Browser version](https://termview-web.vercel.app). | Python, React |
+| [TaskMGR-clone](https://github.com/zainulwahaj/TaskMGR-clone) | Task manager for Windows and macOS from one C# codebase. | .NET 8, Avalonia UI |
+| [selfhealing-mlops](https://github.com/zainulwahaj/selfhealing-mlops-FA23-BAI-058) | Blue-green Kubernetes deployment where a Prometheus alert triggers a Jenkins rollback. | Kubernetes, Jenkins, Prometheus, Grafana |
 
----
+## Contact
 
-<div align="center">
-
-## ⚡ About Me
-
-</div>
-
-```python
-class ZainulWahaj:
-    role        = "Jr AI Engineer @ GenMediTech PVT"
-    education   = "BS Artificial Intelligence — COMSATS University, Islamabad"
-    focus       = ["Agentic AI", "Cloud Infrastructure", "Full-Stack Development"]
-    products    = ["DNA SmartNotes AI (medical scribing SaaS)",
-                   "MedCodifier (medical coding SaaS)"]
-    loves       = ["AWS CDK", "LangGraph", "Docker", "serverless architectures"]
-    currently   = "Building production AI systems in healthcare"
-```
-
----
-
-## 🚀 Featured Projects
-
-<div align="center">
-
-| Project | What it does | Stack |
-|--------|--------------|-------|
-| 🔐 **[SecureVault](https://github.com/zainulwahaj/SecureVault)** | Zero-knowledge encrypted file vault. Client-side XChaCha20-Poly1305, X25519 key exchange, TOTP MFA. Server is cryptographically blind. | FastAPI · Next.js · libsodium · AWS CDK · PostgreSQL |
-| 🍳 **[RecipeHub](https://github.com/zainulwahaj/recipehub-be)** · [recipehub-fe](https://github.com/zainulwahaj/recipehub-fe) | AI recipe platform powered by GPT-4o-mini. Role-based access, ratings, favorites. FastAPI on Lambda via Docker. | FastAPI · React 19 · OpenAI · AWS Lambda · Docker |
-| 🕷️ **[Crawl.ai](https://github.com/zainulwahaj/aifrontend)** · [scrapvision](https://github.com/zainulwahaj/scrapvision) (backend) | Web scraper with TextRank summarization + VADER sentiment. Asyncio-driven, real-time React dashboard. | Next.js · Flask · NLP · Tailwind · shadcn/ui |
-| 🖥️ **[TaskMGR](https://github.com/zainulwahaj/taskMGR-clone)** | Cross-platform Task Manager clone (Windows · macOS · Linux). Single C# codebase, real-time CPU/memory monitoring. | .NET 8 · Avalonia UI · C# · MVVM |
-| 🧠 **Suicide Ideation Detection** | DistilBERT on 232K Reddit posts. 96.9% accuracy, 99.5% ROC-AUC. Next.js + Windows XP.css frontend. | DistilBERT · PyTorch · Scikit-Learn · Next.js |
-
-</div>
-
----
-
-## 🛠️ Tech Stack
-
-<div align="center">
-
-**Languages**
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-
-**Web & APIs**
-
-![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
-
-**Cloud & Infrastructure**
-
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonaws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![AWS Lambda](https://img.shields.io/badge/Lambda-FF9900?style=for-the-badge&logo=awslambda&logoColor=white)
-![Amazon S3](https://img.shields.io/badge/S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
-![Amazon RDS](https://img.shields.io/badge/RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
-![AWS CDK](https://img.shields.io/badge/CDK-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
-
-**AI / ML**
-
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
-![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
-![scikit-learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikitlearn&logoColor=white)
-![Pinecone](https://img.shields.io/badge/Pinecone-000000?style=for-the-badge&logo=pinecone&logoColor=white)
-
-**Databases**
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-</div>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=zainulwahaj&show_icons=true&theme=midnight-purple&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=zainulwahaj&layout=compact&theme=midnight-purple&hide_border=true&bg_color=0d1117"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=zainulwahaj&theme=radical&hide_border=true" alt="GitHub streak" />
-
-</div>
-
----
-
-## 🐍 Contribution Activity
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/zainulwahaj/zainulwahaj/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
-
----
-
-<div align="center">
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:24243e,50:302b63,100:0f0c29&height=100&section=footer" />
-
-</div>
+- Email: zainulwhaj4@gmail.com
+- LinkedIn: [zain-ul-whaj-a6678719a](https://www.linkedin.com/in/zain-ul-whaj-a6678719a)
+- Portfolio: [portfolio-orpin-eight-48.vercel.app](https://portfolio-orpin-eight-48.vercel.app)
